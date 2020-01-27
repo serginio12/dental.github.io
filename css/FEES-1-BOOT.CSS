@@ -1,0 +1,456 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.cc1{
+    background-color: #61cece;
+    height: 10px;
+}
+
+.cc2{
+    background-color: #088fcb;
+    height: 10px;
+}
+
+.cc3{
+    background-color: #61cece;
+    height: 10px;
+    padding-right: 52px;
+}
+
+ .conest{
+ background-color:  #61cece;
+    margin-right: 1px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+.conest h6{
+    color: white;
+    animation: blink 1s infinite;
+}
+
+.conest a:hover{
+    text-decoration: none;   
+}
+
+    
+}
+
+@keyframes blink {
+    0%{opacity: 2.0}
+    
+    50%{opacity: 0.0}
+    
+    10%{opacity: 2.0}
+}
+
+
+.end{
+    margin-top: -4.7px;
+}
+
+@media screen and (min-width:768px){
+    .navbar-nav .dropdown-menu{
+    margin-right: inherit;
+}
+
+}
+.fas, .fab{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 58px;
+    background-image: url(wells.png);
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+  font-family: serif;
+}
+.on-col a{
+    color: black;
+}
+.on-col a:hover{
+     text-decoration: none; 
+    color: black;
+}
+
+
+
+
+.cont-one img{
+       width: 23%;
+    margin-left: 39%;
+    margin-bottom: 20px
+    
+}
+
+
+.fas{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.on-col{
+    padding-left: 70%;
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+}
+
+
+
+
+
+.main{
+    margin-top: 40px
+}
+.front-head{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+
+.front-head-dent {
+       box-sizing: border-box;
+    background: url(../images/FEES5.jpg) no-repeat;
+    background-size: cover;
+    max-width: 85%;
+    margin-left:40px;
+    height: 463px;
+}
+
+.front-head-dent-den {
+    box-sizing: border-box;
+    width: 35%;
+    height: 322px;
+    background-color: white;
+    position: absolute;
+    top: 12%;
+    left: 54%;
+    padding-left: 60px;
+    opacity: 0.7;}
+
+
+.front-head-dent-den h2 {
+     font-family: serif;
+    font-size: 29px;
+    font-weight: 200;
+    margin-top: 50px;
+    color: #5d5d5d;
+}
+
+.front-head-dent-den h1{
+    font-family: serif;
+padding-right: 29px;
+    font-size: 24px;
+     color: #5d5d5d;
+    animation-delay: 0.5s;
+    font-weight: 600;
+    margin: 13px 0 13px;
+    
+}
+.word2{
+    animation-delay: 1s;
+}
+.front-head-dent-den p{
+      font-family: serif;
+    line-height: 24px;
+    padding-right: 62px;
+    color: #000000;
+    animation-delay: 1.6s;
+   text-align: justify;
+}
+
+
+.line-one{
+    border: 1px solid  #5d5d5d;
+    width: 60%;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.word1{
+    animation-delay: 0.4s;
+}
+
+.word2{
+    animation-delay: 0.8s;
+}
+
+.word3{
+    animation-delay: 2s;
+    text-align:justify;
+}
+
+.vert-line{
+     height: 60px;
+    width: 3px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 100%;
+    margin-bottom: 10px;
+    
+}
+
+
+.text-subline{
+    
+     position: relative;
+    height: 2px;
+    padding: 0;
+    background: #e5e5e5;
+    margin-bottom: 2px;
+    border: none;
+  
+}
+
+
+.text-subline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.9px;
+    width: 50%;
+    background: #32b9ec;
+}
+
+ .text-line{
+    text-align: justify;
+    width: 70%;
+}
+
+.text-line h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: serif;
+}
+
+.price-table{
+     font-family: serif;
+    text-align: center;
+    margin-left: 19%;
+    width: 80%;
+    float: left;
+    overflow: auto;
+    margin-bottom: 15px;
+    background-color: re
+}
+
+
+.price-table table{
+    width: 90%;
+    border-collapse: collapse;
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    font-size: 15px;
+}
+
+.col p{
+     font-family: serif;
+    font-size: 18px;
+}
+
+
+.price-table table tbody{
+    
+    display: table-row-group;
+    vertical-align: middle;
+
+}
+.price-table tr{
+    display: table-row;
+    vertical-align: inherit;
+        border-top-color: inherit;
+    border-right-color: inherit;
+    border-bottom-color: inherit;
+    border-left-color: inherit;
+}
+    
+
+
+.price-table tr td{
+        padding: 8px 15px;
+        border-left: 1px solid #e5e5e5;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(229, 229, 229);
+    border-top: 1px solid #e5e5e5;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(229, 229, 229);
+        vertical-align: top;
+}
+
+
+
+.col1{
+    background-color: rgba(0, 190, 190, 0.64);
+}
+
+.col2{
+    background-color: rgba(0, 209, 209, 0.88);
+}
+.col3{
+    background-color: #00e8e8;
+}
+.col4{
+    background-color: #0effff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  only screen and (min-width: 576px){
+    
+    .show .container{
+        padding-right: 1px;
+    }
+    
+    .vert-line{
+        margin-top: 20px;
+    }
+    
+     .row-line{
+        margin-top: -30px;
+    }
+    
+    .con{
+        margin-top: 40px;
+    }
+    
+    .front-head-dent-den p{
+        padding-right: 0px;
+        margin-top: 16px;
+    }
+ 
+}
+
+
+.parallax{
+    margin-bottom: 30px;
+   min-height: 300px;
+  background: transparent -90%;  
+   
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    
+        .front-head-dent-den {
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    padding-left: 80px;
+    opacity: 0.7;
+    position: absolute;
+    display: contents;
+}
+    .front-head-dent {
+    box-sizing: border-box;
+    background: url(../images/FEES5.jpg) no-repeat 6%;
+    background-size: cover;
+    max-width: 100%;
+    height: 289px;
+}
+    
+    .word, .word2{
+        text-align: center;
+        
+    }
+    
+    .line-one{
+        height: 1px;
+        width: 100%;
+        border: 1.5px solid #5d5d5d;
+    }
+    
+  
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .price-table
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

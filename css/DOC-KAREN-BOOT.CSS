@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+.cc1{
+    background-color: #61cece;
+    height: 10px;
+}
+
+.cc2{
+    background-color: #088fcb;
+    height: 10px;
+}
+
+.cc3{
+    background-color: #61cece;
+    height: 10px;
+    padding-right: 52px;
+}
+
+ .conest{
+ background-color:  #61cece;
+    margin-right: 1px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+.conest h6{
+    color: white;
+    animation: blink 1s infinite;
+}
+.conest a:hover{
+    text-decoration: none;   
+}
+
+.cont-one img{
+       width: 23%;
+    margin-left: 39%;
+    margin-bottom: 20px
+    
+}
+
+    
+}
+
+@keyframes blink {
+    0%{opacity: 2.0}
+    
+    50%{opacity: 0.0}
+    
+    10%{opacity: 2.0}
+}
+
+
+.end{
+    margin-top: -4.7px;
+}
+
+@media screen and (min-width:768px){
+    .navbar-nav .dropdown-menu{
+    margin-right: inherit;
+}
+
+}
+.fas, .fab{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 58px;
+    background-image: url(../wells.png);
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+  font-family: serif;
+}
+.on-col a{
+    color: black;
+}
+.on-col a:hover{
+     text-decoration: none; 
+    color: black;
+}
+
+
+
+.cont-one img{
+       width: 23%;
+    margin-left: 39%;
+    margin-bottom: 20px
+    
+}
+
+
+.fas{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.on-col{
+    padding-left: 70%;
+}
+
+
+
+.rr img{
+    max-width: 120%;
+    height: auto;
+}
+
+.right-color {
+    color: #0ba7cc;
+}
+
+.footer{
+ background: linear-gradient(to right, #32b9ec 0%, #37d6c0 51%, #32b9ec 100%) no-repeat;
+    margin: 20px 0 20px 0;
+    color: aliceblue;
+    text-align:center;
+    padding: 22px;
+}
+
+.time p{
+    margin-bottom:inherit;
+    
+}
+
+
+

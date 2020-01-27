@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.cc1{
+    background-color: #61cece;
+    height: 10px;
+}
+
+.cc2{
+    background-color: #088fcb;
+    height: 10px;
+}
+
+.cc3{
+    background-color: #61cece;
+    height: 10px;
+    padding-right: 52px;
+}
+
+ .conest{
+ background-color:  #61cece;
+    margin-right: 1px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+.conest h6{
+    color: white;
+    animation: blink 1s infinite;
+}
+
+.conest a:hover{
+    text-decoration: none;   
+}
+
+    
+}
+
+@keyframes blink {
+    0%{opacity: 2.0}
+    
+    50%{opacity: 0.0}
+    
+    10%{opacity: 2.0}
+}
+
+
+.end{
+    margin-top: -4.7px;
+}
+
+@media screen and (min-width:768px){
+    .navbar-nav .dropdown-menu{
+    margin-right: inherit;
+}
+
+}
+.fas, .fab{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 58px;
+    background-image: url(../images/wells.png);
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+  font-family: serif;
+}
+.on-col a{
+    color: black;
+}
+.on-col a:hover{
+     text-decoration: none; 
+    color: black;
+}
+
+
+
+
+
+
+.cont-one img{
+       width: 23%;
+    margin-left: 39%;
+    margin-bottom: 20px
+    
+}
+
+
+.fas{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.on-col{
+    padding-left: 70%;
+}
+
+
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+}
+
+.parallax{
+    margin-bottom: 30px;
+   min-height: 300px;
+  background: transparent; 
+    opacity: 2;
+   
+}
+
+.imag-back{
+   margin-top: 20px;
+    background-image: url(../images/testimonial-bac1.jpg);
+    background-attachment: fixed;
+}
+
+ .mrg{
+    border: 1px solid black;
+    
+}
+
+.col h5{
+    float: right;
+}
+
+
+    
+.imag-testimonial{
+    height: 420px;
+    max-width: 100%;
+    background-image: url(../images/testimonial7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+@media  only screen and (min-width: 576px){
+    
+    .imag-testimonial{
+        height: 203px;
+    }
+}
+  
+@media  only screen and (min-width: 767px){
+    
+    .imag-testimonial{
+        height: 283px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

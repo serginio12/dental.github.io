@@ -1,0 +1,177 @@
+html{
+box-sizing: border-box;
+flex-wrap: wrap;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:serif; 
+}
+
+
+.cc1{
+    background-color: #61cece;
+    height: 10px;
+}
+
+.cc2{
+    background-color: #088fcb;
+    height: 10px;
+}
+
+.cc3{
+    background-color: #61cece;
+    height: 10px;
+    padding-right: 52px;
+}
+
+ .conest{
+ background-color:  #61cece;
+    margin-right: 1px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+.conest h6{
+    color: white;
+    animation: blink 1s infinite;
+}
+
+.conest a:hover{
+    text-decoration: none;   
+}
+
+    
+}
+
+@keyframes blink {
+    0%{opacity: 2.0}
+    
+    50%{opacity: 0.0}
+    
+    10%{opacity: 2.0}
+}
+
+
+.end{
+    margin-top: -4.7px;
+}
+
+@media screen and (min-width:768px){
+    .navbar-nav .dropdown-menu{
+    margin-right: inherit;
+}
+
+}
+.fas, .fab{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 58px;
+    background-image: url(wells.png);
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+  font-family: serif;
+}
+.on-col a{
+    color: black;
+}
+.on-col a:hover{
+     text-decoration: none; 
+    color: black;
+}
+
+
+
+
+container{
+    
+    width: 100%;
+}
+
+
+ eng{
+    margin-left: 200px;
+ 
+}
+
+
+.cont-one img{
+       width: 23%;
+    margin-left: 39%;
+    margin-bottom: 20px
+    
+}
+
+
+.fas, .fab{
+    color: #00c4ff;
+    font-size: 23px;
+}
+
+.on-col{
+    padding-left: 70%;
+}
+
+
+.main{
+   margin-top: -11px;
+   
+}
+.front-head{
+    background-image: url(../images/consultationimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    display: block;
+    height: 410px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+
+@media  only screen and (max-width: 576px){
+    .cont-one img {
+        width:40%;
+        margin-left: 32%
+    }  
+    .front-head{
+        height: 142px;
+        margin-bottom: 20px;
+        background-attachment: fixed;
+    }
+    
+    .col h1, .col h2{
+      font-family: sans-serif;
+        color: rgb(0, 123, 152);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+}
+    

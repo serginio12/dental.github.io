@@ -1,0 +1,313 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.cont-one img{
+       width: 23%;
+    margin-left: 37%;
+    margin-bottom: 20px;
+    }
+
+
+
+.cc1{
+    background-color: #61cece;
+    height: 10px;
+}
+
+.cc2{
+    background-color: #088fcb;
+    height: 10px;
+}
+
+.cc3{
+    background-color: #61cece;
+    height: 10px;
+    padding-right: 52px;
+}
+
+ .conest{
+ background-color:  #61cece;
+    margin-right: 1px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+.conest h6{
+    color: white;
+    animation: blink 1s infinite;
+}
+
+    
+}
+
+@keyframes blink {
+    0%{opacity: 2.0}
+    
+    50%{opacity: 0.0}
+    
+    10%{opacity: 2.0}
+}
+
+
+.end{
+    margin-top: -4.7px;
+}
+
+@media screen and (min-width:768px){
+    .navbar-nav .dropdown-menu{
+    margin-right: inherit;
+}
+
+}
+.fas, .fab{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 58px;
+    background-image: url(../images/wells.png);
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+  font-family: serif;
+}
+.on-col a{
+    color: black;
+}
+
+.on-col a:hover{
+     text-decoration: none; 
+    color: black;
+}
+
+
+
+
+.fas{
+    color: #00c4ff;
+    font-size: 20px;
+     font-family: serif;
+}
+
+.on-col{
+    padding-left: 70%;
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+     font-family: serif;
+}
+
+.col p{
+     font-family: serif;
+}
+
+
+.front-head{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+
+.front-head-dent {
+       box-sizing: border-box;
+    background: url(../images/patients1.jpg) no-repeat 6%;
+    background-size: contain;
+    width: 96%;
+    height: 423px;
+}
+.front-head-dent-den{
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    padding-left: 80px;
+    opacity: 0.7
+}
+.front-head-dent-den h2 {
+    font-size: 19px;
+    font-weight: 200;
+    margin-top: 40px;
+    color: #5d5d5d;
+     font-family: serif;
+}
+
+.line-one{
+    border: 1px solid  #5d5d5d;
+    width: 90%;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+.front-head-dent-den h1{
+padding-right: 29px;
+    font-size: 24px;
+     color: #5d5d5d;
+    animation-delay: 0.5s;
+    font-weight: 600;
+    margin: 6px;
+     font-family: serif;
+}
+.word2{
+    animation-delay: 1s;
+}
+.front-head-dent-den p{
+     font-family: serif;
+    line-height: 19px;
+    padding-right: 16px;
+    color: #000000;
+    animation-delay: 1.6s;
+   text-align: justify;
+}
+
+
+.vert-line{
+    height: 60px;
+    width: 3px;
+    background-color: black;
+    margin-top: 60px;
+    margin-left: 50%;
+    margin-bottom: 40px;
+}
+
+.text-subline{
+    
+     position: relative;
+    height: 2px;
+    padding: 0;
+    background: #e5e5e5;
+    margin-bottom: 2px;
+    border: none;
+   font-family: serif;
+}
+
+
+.text-subline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 50%;
+    background: #32b9ec;
+}
+
+.img-dental img{
+    width: 10%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+strong, strong a {
+    color: #32b9ec;
+    font-family: serif;
+}
+
+.footer{
+ background: linear-gradient(to right, #32b9ec 0%, #37d6c0 51%, #32b9ec 100%) no-repeat;
+    margin: 20px 0 20px 0;
+    color: aliceblue;
+    text-align:center;
+    padding: 70px;
+     font-family: serif;
+}
+.time p{
+    margin-bottom:inherit;
+     font-family: serif;
+}
+
+
+
+
+
+@media screen and (max-width:768px)
+{
+    
+    .front-head-dent-den {
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    padding-left: 80px;
+    opacity: 0.7;
+    position: absolute;
+    display: contents;
+}
+    .front-head-dent {
+    box-sizing: border-box;
+    background: url(../images/patients1.jpg) no-repeat 6%;
+    background-size: contain;
+    width: 96%;
+    height: 289px;
+}
+    
+    .word, .word2{
+        text-align: center;
+        
+    }
+    
+    .line-one{
+        height: 1px;
+        width: 100%;
+        border: 1.5px solid #5d5d5d;
+    }
+    
+} 
+    
+    
+ @media screen and (max-width:576px){
+    front-head-dent-den {
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    padding-left: 80px;
+    opacity: 0.7;
+    position: absolute;
+    display: contents;
+}
+}   
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

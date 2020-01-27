@@ -1,0 +1,340 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+
+
+
+.cc1{
+    background-color: #61cece;
+    height: 10px;
+}
+
+.cc2{
+    background-color: #088fcb;
+    height: 10px;
+}
+
+.cc3{
+    background-color: #61cece;
+    height: 10px;
+    padding-right: 52px;
+}
+
+ .conest{
+ background-color:  #61cece;
+    margin-right: 1px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+.conest h6{
+    color: white;
+    animation: blink 1s infinite;
+}
+
+.conest a:hover{
+    text-decoration: none;   
+}
+
+.on-col a:hover{
+     text-decoration: none; 
+    color: black;
+}
+
+    
+}
+
+@keyframes blink {
+    0%{opacity: 2.0}
+    
+    50%{opacity: 0.0}
+    
+    10%{opacity: 2.0}
+}
+
+
+.end{
+    margin-top: -4.7px;
+}
+
+@media screen and (min-width:768px){
+    .navbar-nav .dropdown-menu{
+    margin-right: inherit;
+}
+
+}
+.fas, .fab{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 58px;
+    background-image: url(../images/wells.png);
+}
+
+
+
+
+
+
+
+
+
+.navbar-nav .dropdown-menu{
+    margin-right: 57%;
+}
+
+.cont-one img{
+       width: 23%;
+    margin-left: 39%;
+    margin-bottom: 20px
+    
+}
+
+.cont{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.on-col{
+    padding-left: 70%;
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+  font-family: serif;
+}
+.on-col a{
+    color: black;
+}
+
+
+
+.carousel-item{
+    max-height: 500px;
+    width: 100%;
+}
+
+
+.card{
+     font-family:serif;
+    background-color: #ff0b1e;
+    margin: 4px;
+    height: 300px;
+    border-radius: 9px;
+    box-shadow: 14px 14px 88px -17px rgba(135, 208, 217, 0.73);
+
+}
+
+.color{
+    color: floralwhite;
+    border-radius: 70px;
+    background: linear-gradient(to right, #32b9ec 0%, #37d6c0 91%, #32b9ec 100%) no-repeat;
+}
+
+.ice{
+       margin-bottom: 70px;
+    width: 100%;
+    height: 67vh;
+    
+    background-image: url(../images/den13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ .ice .jumbotron{
+    background-color: inherit;
+}
+
+.ice .jumbotron h1{
+    color: #ffffff;
+}
+
+.rond{
+    border-radius: 40%;
+}
+.card-body{
+    background-color: rgba(94, 253, 247, 0.17)
+}
+
+.welkome{
+      background-image: url(../images/wal3.jpg);
+    background-size: cover;
+    background-repeat: round;
+    font-weight: 50;
+    box-shadow: 14px 14px 88px -1px rgba(40,151,166,0.73);
+     font-family: serif;
+}
+
+.ady{
+    width: 90%;
+    height: auto;
+  
+}
+
+.ady img{
+   max-width: 80%;
+    height: auto;
+}
+.first{
+    width: inherit;
+    height: auto;
+    text-align: inherit;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.galery{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(87, 223, 255);
+}
+
+.galery strong{
+    font-size: 20px;
+    color: #2e2e2e;
+}
+
+.dentristy{
+    margin-top: 50px;
+    text-align: center;
+   
+}
+
+.dentristy-apl{
+    
+  opacity: 0;
+    transition: all .5s;
+    transform: scale3d(1.2, 1.2, 1.2);
+}
+
+.dentristy-apl-two{
+    
+  opacity: 0;
+    transition: all .5s;
+    transform: scale3d(1.2, 1.2, 1.2);
+   display: inline-block;
+    
+}
+
+
+
+.ssow{
+    opacity: 2;
+    transform: scale3d(1,1,1);
+      
+}
+
+.line-services{
+    position: absolute;
+    left: 47%;
+    width:6%;
+    height: 2.3px;
+    background: linear-gradient(to right, #32b9ec 0%, #37d6c0 51%, #32b9ec 10%) no-repeat;
+}
+
+.path{
+    background-color: aqua;
+ 
+    
+}
+
+.image-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+.paralax{
+    clip-path: polygon(0 16%, 100% 0, 100% 100%, 1% 300%);
+    background-image: url(../images/den1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paralax1{
+    padding-top: 70px;
+    clip-path: polygon(0 16%, 100% 0, 100% 100%, 0% 100%);
+     background-color: rgba(0, 67, 75, 0.73);
+}
+
+
+ 
+
+
+.footer{
+ background: linear-gradient(to right, #32b9ec 0%, #37d6c0 51%, #32b9ec 100%) no-repeat;
+    margin: 20px 0 20px 0;
+    color: aliceblue;
+    text-align:center;
+    padding: 22px;
+    font-family:serif;
+}
+
+ .time p{
+    margin-bottom:inherit;
+     font-family:serif;
+    
+}
+
+
+
+@media screen and (max-width:576px){
+    .cont-one img{
+        width: 29%;
+        margin-left: inherit;
+        margin-bottom: 0px;
+    }
+    .ady{
+        width: 53%;
+        margin-bottom: 25px;
+    }
+    
+    .image-container{
+        width: 243px;
+        height: 243px;
+    }
+    
+    p.first.mt-5{
+        margin-top: 0rem!important;
+    }
+} 
+    
+
+ 
+
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

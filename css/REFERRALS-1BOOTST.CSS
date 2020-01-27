@@ -1,0 +1,450 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cc1{
+    background-color: #61cece;
+    height: 10px;
+}
+
+.cc2{
+    background-color: #088fcb;
+    height: 10px;
+}
+
+.cc3{
+    background-color: #61cece;
+    height: 10px;
+    padding-right: 52px;
+}
+
+ .conest{
+ background-color:  #61cece;
+    margin-right: 1px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+.conest h6{
+    color: white;
+    animation: blink 1s infinite;
+}
+
+.conest a:hover{
+    text-decoration: none;   
+}
+
+    
+}
+
+@keyframes blink {
+    0%{opacity: 2.0}
+    
+    50%{opacity: 0.0}
+    
+    10%{opacity: 2.0}
+}
+
+
+.end{
+    margin-top: -4.7px;
+}
+
+@media screen and (min-width:768px){
+    .navbar-nav .dropdown-menu{
+    margin-right: inherit;
+}
+
+}
+.fas, .fab{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.wells img{
+    margin-left: 13px;
+    height: 38px;
+    max-width: 58px;
+    background-image: url(../images/images/wells.png);
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+  font-family: serif;
+}
+.on-col a{
+    color: black;
+}
+.on-col a:hover{
+     text-decoration: none; 
+    color: black;
+}
+
+
+
+
+
+
+.cont-one img{
+       width: 23%;
+    margin-left: 39%;
+    margin-bottom: 20px
+    
+}
+
+
+.fas{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.on-col{
+    padding-left: 70%;
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+}
+
+
+
+
+
+.main{
+    margin-top: 40px
+}
+.front-head{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    
+}
+
+
+.front-head-dent {
+       box-sizing: border-box;
+    background: url(../images/referral.img1.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 502px;
+}
+
+.front-head-dent-den {
+    box-sizing: border-box;
+    width: 35%;
+    height: 322px;
+    background-color: white;
+    position: absolute;
+    top: 12%;
+    left: 54%;
+    padding-left: 60px;
+    opacity: 0.7;}
+
+
+
+
+
+
+
+
+.vert-line{
+     height: 60px;
+    width: 3px;
+    background-color: black;
+    margin-top: 30px;
+    margin-left: 100%;
+    margin-bottom: 10px;
+    
+}
+
+
+.text-subline{
+    
+     position: relative;
+    height: 2px;
+    padding: 0;
+    background: #e5e5e5;
+    margin-bottom: 2px;
+    border: none;
+  
+}
+
+
+.text-subline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1.4px;
+    width: 50%;
+    background: #32b9ec;
+}
+
+ .text-line{
+     font-family: serif;
+     font-size: 19px;
+    text-align: justify;
+    width: 70%;
+}
+
+.text-line h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+ 
+
+.col a{
+    color: red;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.cl {
+    color: #009fdb;
+    font-weight: 500;
+    
+}
+
+
+.line-services{
+    position: relative;;
+    margin-bottom: 10px;
+    left: 37%;
+    width:20%;
+    height: 1.3px;
+    background: linear-gradient(to right, #32b9ec 0%, #37d6c0 51%, #32b9ec 10%) no-repeat;
+}
+
+.form {
+     margin-left: 20%;
+    position: absolute;
+    height: auto;
+    width:60%;
+    background-color: #f0f0f0;
+     
+}
+
+.seeforms  .type-linetext input{
+   
+    background: #fff;
+    width: 53%;
+margin-left: 30%;
+    border: 1px solid #c9c9c9;
+    font-size: 1em;
+    line-height: 1.714em;
+    padding: 2px 10px;
+    background-color: #ffffff;
+    font-family: serif;
+    
+    
+}
+form .text-inputtype .text-checkbox form .email-inputtype {
+    width: 100%; 
+    height: 28px;
+    margin-bottom: 1px;
+}
+form .email-inputtype {
+    width: 100%;
+    height: 28px;
+    margin-bottom: 1px;
+    padding-left: 10px;
+    background: #ffffff;
+}
+
+form input{
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    background-color: white;
+    cursor: text;
+    vertical-align: baseline;
+    font: inherit;
+    color: inherit;
+}
+
+.seeforms  .field-wrap{
+    margin-bottom: 10px;
+    position: relative;
+    
+    
+    
+}
+
+.seeforms .type-checkbox .type-textarea textarea {
+    background: #fff;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #c9c9c9;
+    font-size: 1em;
+    line-height: 1.714em;
+    padding: 7px 10px;
+}
+
+
+table{
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    position: relative;
+    width: 40%;
+    left: 30%
+   
+}
+
+table tr td{
+    border: 1px solid #adadad;
+}
+
+table tr td p{
+    text-align: center;
+}
+
+.seeforms .type-textarea textarea {
+    margin-left:23%;
+    
+    background: #fff;
+    width: 50%;
+    height: 80px;
+    border: 1px solid #c9c9c9;
+    font-size: 1em;
+    line-height: 1.714em;
+    padding: 1px 1px;
+}
+
+.form textarea{
+    margin-bottom: 16px
+}
+
+.textarea{
+    overflow: auto;
+    font-family: inherit;
+    margin: 0;
+    vertical-align: top;
+    resize: vertical;
+}
+
+.seeforms .button {
+
+    width: 30%;
+    max-width: 150px;
+    margin-left: 23%
+  
+}
+
+
+
+@media  only screen and (max-width: 576px){
+    
+    .vert-line{
+        margin-top: 20px;
+        height: 46px;
+    }
+    
+     .row-line{
+        margin-top: -40px;
+    }
+    
+    .text-line h1{
+        margin: 0px;
+        font-size: 1.3em;
+    }
+    
+    .parallax{
+    display: none;
+    }
+    
+    .con{
+        margin-top: 40px;
+    }
+    .front-head-dent{
+        min-height:274px;
+    }
+    .front-head-dent-den p{
+        padding-right: 0px;
+        margin-top: 16px;
+    }
+ 
+}
+
+
+.parallax{
+    margin-bottom: 30px;
+   min-height: 300px;
+  background: transparent -90%;  
+   
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    
+    
+        .front-head-dent-den {
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    padding-left: 80px;
+    opacity: 0.7;
+    position: absolute;
+    display: contents;
+}
+    front-head-dent {
+    box-sizing: border-box;
+    background: url(../images/referral.img1.jpg) no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    height: 194px;
+}
+    
+    .word, .word2{
+        text-align: center;
+        
+    }
+    
+    .line-one{
+        height: 1px;
+        width: 100%;
+        border: 1.5px solid #5d5d5d;
+    }
+    
+  
+}
+
+
+@media screen and (max-width: 415px) {
+     
+    table{
+        width: 68%;
+        left: 15%;
+        
+    }
+    
+    .seeforms .type-linetext input{
+        width: 63%;
+        margin-left: 18%;
+    }
+    
+    
+}

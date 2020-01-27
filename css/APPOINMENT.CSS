@@ -1,0 +1,162 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+}
+
+
+.cc1{
+    background-color: #61cece;
+    height: 10px;
+}
+
+.cc2{
+    background-color: #088fcb;
+    height: 10px;
+}
+
+.cc3{
+    background-color: #61cece;
+    height: 10px;
+    padding-right: 52px;
+}
+
+ .conest{
+ background-color:  #61cece;
+    margin-right: 1px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+ h6{
+    color: white;
+    animation: blink 1s infinite;
+}
+
+    
+}
+
+@keyframes blink {
+    0%{opacity: 2.0}
+    
+    50%{opacity: 0.0}
+    
+    10%{opacity: 2.0}
+}
+
+
+
+
+
+
+
+
+.end{
+    margin-top: -4.7px;
+}
+
+
+.navbar-nav .dropdown-menu{
+    margin-right: 57%;
+}
+
+.cont-one img{
+       width: 23%;
+    margin-left: 39%;
+    margin-bottom: 20px
+    
+}
+
+.cont{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.fas, .fab{
+    color: #00c4ff;
+    font-size: 20px;
+}
+
+.on-col{
+    padding-left: 70%;
+}
+
+.on-col p, .on-col h6 {
+    margin: 1px;
+    text-align: center;
+  font-family: serif;
+}
+
+
+
+
+
+h3{
+    color: #d1d1d1;
+     font-family: sans-serif;
+   
+}
+
+button{ 
+    background-color: rgb(255, 157, 0);
+
+}
+
+.imag{
+    height: 470px;
+    background-image: url(../images/smile4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+
+
+.footer{
+ background: linear-gradient(to right, #32b9ec 0%, #37d6c0 51%, #32b9ec 100%) no-repeat;
+    margin: 20px 0 20px 0;
+    color: aliceblue;
+    text-align:center;
+    padding: 22px;
+    font-family:serif;
+}
+
+ .time p{
+    margin-bottom:inherit;
+     font-family:serif;
+    
+}
+
+
+
+@media screen and (max-width:576px){
+    .ady{
+        width: 53%;
+        margin-bottom: 25px;
+    }
+    
+    .image-container{
+        width: 243px;
+        height: 243px;
+    }
+    
+    p.first.mt-5{
+        margin-top: 0rem!important;
+    }
+} 
+    
+
+@media screen and (min-width:768px){
+    .navbar-nav .dropdown-menu{
+    margin-right: inherit;
+}
+
+} 
+
+       
+    
